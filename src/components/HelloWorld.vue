@@ -27,7 +27,7 @@ const bg = ref([
   "bg-pink-800",
   "bg-pink-900",
   "bg-black",
-  `bg-[url('src/assets/raining.gif')] bg-cover bg-center`,
+  `bg-[url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c58a6b24-9998-464f-87da-1c45d1b89a4c/dbuynxy-5a815bfd-d64e-4dba-bc28-d0d819ab056d.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M1OGE2YjI0LTk5OTgtNDY0Zi04N2RhLTFjNDVkMWI4OWE0Y1wvZGJ1eW54eS01YTgxNWJmZC1kNjRlLTRkYmEtYmMyOC1kMGQ4MTlhYjA1NmQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.EBsLNN8FJquNYrkkUikb5CAuDFdCkftBOTmgjrJSzLc')] bg-cover bg-center`,
 ]);
 
 const noText = ref([
@@ -59,7 +59,7 @@ const voteNo = () => {
 
 const voteYes = () => {
   sadIndex.value = 0;
-  curentBg.value = `bg-[url('src/assets/tulip.gif')] bg-cover bg-center`;
+  curentBg.value = `bg-[url('https://i.pinimg.com/originals/ee/c1/24/eec1243b10dbb3cb10679d68f0681a33.gif')] bg-cover bg-center`;
   console.log(curentBg.value);
   currentSad.value = yesImg.value;
   status.value = true;
