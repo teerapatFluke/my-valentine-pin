@@ -27,7 +27,7 @@ const bg = ref([
   "bg-pink-800",
   "bg-pink-900",
   "bg-black",
-  `bg-[url('src/assets/raining.gif')] bg-cover bg-center`,
+  `bg-[url('https://media1.giphy.com/media/PbOaO2fedzQLm/200w.gif?cid=6c09b952hz2dqind9vmgm03fkfqy4hzfgnpj8rw6fs547jlv&ep=v1_gifs_search&rid=200w.gif&ct=g')] bg-cover bg-center`,
 ]);
 
 const noText = ref([
