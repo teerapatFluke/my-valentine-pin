@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Cute+Font&display=swap");
+@import "tailwindcss";
+
+:root {
+  --pink-pastel: #f9d5e5;
+}
+body {
+  font-family: "Cute Font", serif;
+  font-weight: 400;
+  font-style: normal;
+  /* background-color: var(--pink-pastel); */
+}
+
+@theme {
+  --pink-100: #f9d5e5;
+}
