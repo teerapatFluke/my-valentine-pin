@@ -59,6 +59,7 @@ const voteNo = () => {
 
 const voteYes = () => {
   sadIndex.value = 0;
+  currentText.value = "Happy Valentine's Day";
   curentBg.value = `bg-[url('https://i.pinimg.com/originals/ee/c1/24/eec1243b10dbb3cb10679d68f0681a33.gif')] bg-cover bg-center`;
   console.log(curentBg.value);
   currentSad.value = yesImg.value;
